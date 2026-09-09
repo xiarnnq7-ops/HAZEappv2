@@ -1,7 +1,11 @@
 // Data
 const products = [
   { id: 1, name: "Haze Collective Hoodie Navy Blue", price: 1290, oldPrice: 1590, category: "hoodie", tag: "BEST", image: "assets/hoodie/navy.png", desc: "Essential everyday hoodie. Heavyweight cotton fleece, relaxed fit, kangaroo pocket." },
-  { id: 2, name: "Haze Collective Hoodie Light Gray", price: 590, oldPrice: null, category: "hoodie", tag: "NEW", image: "assets/hoodie/light_gray.png", desc: "Boxy fit hoodie with dropped shoulders. Premium 240gsm cotton." },
+  { id: 2, name: "Haze Collective Hoodie Light Gray", price: 1290, oldPrice: null, category: "hoodie", tag: "HOT", image: "assets/hoodie/light_gray.png", desc: "Boxy fit hoodie with dropped shoulders. Premium 240gsm cotton." },
+  { id: 3, name: "Haze Collective Hoodie Beige Cream", price: 1290, oldPrice: null, category: "hoodie", tag: null, image: "assets/hoodie/beige_cream.png", desc: "Boxy fit hoodie with dropped shoulders. Premium 240gsm cotton." },
+  { id: 4, name: "Haze Collective Hoodie Brown", price: 1290, oldPrice: null, category: "hoodie", tag: null, image: "assets/hoodie/brown.png", desc: "Boxy fit hoodie with dropped shoulders. Premium 240gsm cotton." },
+
+  { id: 5, name: "Haze Collective T-Shirt White C1", price: 590, oldPrice: null, category: "tshirt", tag: "NEW", image: "assets/tshirt/c1white.png", desc: "Boxy freesize t-shirt with dropped shoulders. Premium 190gsm cotton." },
 ];
 
 let cart = [];
